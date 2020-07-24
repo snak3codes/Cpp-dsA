@@ -231,7 +231,7 @@ public:
 // main function
 int main()
 {
-    cout << "-- Singly Linked List --" << endl;
+    cout << "-- Doubly Linked List --" << endl;
 
     DoublyLinkedList DLL;
     int menuOption, inputNewKey, inputExistingKey, inputNewData;
