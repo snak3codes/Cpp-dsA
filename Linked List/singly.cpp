@@ -88,7 +88,7 @@ public:
     {
         if (nodeExists(n->key) != NULL) // Accessing pointer data members using ->
         {
-            cout << "Node already exists with key value: " << n->key << ". Append another node with a different key value" << endl;
+            cout << "Node already exists with key value: " << n->key << ". Prepend another node with a different key value" << endl;
         }
         else
         {

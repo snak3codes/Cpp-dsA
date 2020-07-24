@@ -91,7 +91,7 @@ public:
     {
         if (nodeExists(n->key) != NULL)
         {
-            cout << "Node already exists with key value: " << n->key << ". Append another node with a different key value" << endl;
+            cout << "Node already exists with key value: " << n->key << ". Prepend another node with a different key value" << endl;
         }
         else
         {
